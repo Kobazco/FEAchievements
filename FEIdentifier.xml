@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/21/2018 4:25:03 PM -->
+<GameData>
+	<!--Any and all mods we are using must be defined in a similar manner, Mod ID and name etc.-->
+	<AdditionalAchievements_Mods>
+		<Row>
+			<Type>MOD_FE_ADDITIONAL_ACHIEVEMENTS</Type> <!--Mod Type-->
+			<ModName>TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_NAME</ModName> <!--Name of the mod-->
+			<ModID>TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_MODID</ModID> <!--Mod ID-->
+			<Authors>TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_AUTHORS</Authors> <!--Authors of the mod-->
+		</Row>
+		<!--Robin/Chrom Mod-->
+		<Row>
+			<Type>MOD_FE_ROBIN</Type>
+			<ModName>TXT_KEY_MOD_FE_ROBIN_NAME</ModName>
+			<ModID>TXT_KEY_MOD_FE_ROBIN_MODID</ModID>
+			<Authors>TXT_KEY_MOD_FE_ROBIN_AUTHORS</Authors>
+		</Row>
+	</AdditionalAchievements_Mods>
+	<Language_en_Us>
+		<Row Tag="TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_NAME"> <!--Name of the mod-->
+			<Text>Fire Emblem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_MODID"> <!--Mod ID, can be found in the .modinfo file in all mods. Open the .modinfo file with text editor of your choosing-->
+			<Text>f0d3095d-bcc6-44e4-b0f5-3c0da84412b4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_FE_ADDITIONAL_ACHIEVEMENTS_AUTHORS"> <!--Authors of the mod-->
+			<Text>Kobazco, Civ V Fire Emblem Community</Text>
+		</Row>
+		<!--Robin/Chrom-->
+		<Row Tag="TXT_KEY_MOD_FE_ROBIN_NAME">
+			<Text>Fire Emblem The Haildom of Ylisse (Robin, Chrom)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_FE_ROBIN_MODID">
+			<Text>85dc4d7c-7b4b-4972-b69f-e89299ffe742</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_FE_ROBIN_AUTHORS">
+			<Text>Kobazco</Text>
+		</Row>
+	</Language_en_Us>
+</GameData>

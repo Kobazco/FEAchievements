@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/21/2018 4:27:10 PM -->
+<GameData>
+	<!--Fire Emblem Awakening Specific Achievements-->
+	<AdditionalAchievements>
+		<!--Male Robin Wins-->
+		<Row>
+            <Type>AA_FE_HIGH_DELIVERER</Type> <!--AchievementType-->
+            <Header>TXT_KEY_AA_FE_HIGH_DELIVERER_HEADER</Header> <!--Achievement Text Title - This one becomes "High Deliverer"-->
+            <Achievopedia>TXT_KEY_AA_FE_HIGH_DELIVERER_TEXT</Achievopedia> <!--The description of the Achivement, usually the requirements: "Win a game as Robin-->
+            <IconAtlas>CIV_ROBIN_ATLAS</IconAtlas> <!--Atlas for the Achievement Icon, can be original, or taken from mod-->
+            <PortraitIndex>0</PortraitIndex> <!--Portrait index of the atlas in use-->
+            <ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType> <!--The base mod required for this Achievement, always put MOD_FE_ADDITIONAL_ACHIEVEMETNS. Secondary dependancies, such as requiring Robin's Ylisse is done in FEAwakeningRequiredMods.xml-->
+            <ModVersion>1</ModVersion> <!--Version of Fire Emblem - Additional Achievements the Achievement was added in-->
+            <RequiredCivWin>CIVILIZATION_ROBINYLISSE</RequiredCivWin> <!--Basic non lua requirements, such as winning, killing, or losing as a civ can be defined. See AA References.sql for more details-->
+        </Row>
+		<!--Female Robin Wins-->
+		<Row>
+			<Type>AA_FE_HIGH_DELIVERER_F</Type>
+			<Header>TXT_KEY_AA_FE_HIGH_DELIVERER_F_HEADER</Header>
+			<Achievopedia>TXT_KEY_AA_FE_HIGH_DELIVERER_F_TEXT</Achievopedia>
+			<IconAtlas>CIV_FEMALEROBIN_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType>
+			<ModVersion>1</ModVersion>
+			<RequiredCivWin>CIVILIZATION_ROBINFYLISSE</RequiredCivWin>
+		</Row>
+		<!--Chrom Wins Any Victory-->
+		<Row>
+			<Type>AA_FE_NEWLY_EXALTED</Type>
+			<Header>TXT_KEY_AA_FE_NEWLY_EXALTED_HEADER</Header>
+			<Achievopedia>TXT_KEY_AA_FE_NEWLY_EXALTED_TEXT</Achievopedia>
+			<IconAtlas>CIV_CHROM_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType>
+			<ModVersion>1</ModVersion>
+			<RequiredCivWin>CIVILIZATION_CHROM_YLISSE</RequiredCivWin>
+		</Row>
+		<!--Emm Wins Any Victory-->
+		<Row>
+			<Type>AA_FE_GENTLE_HEART</Type>
+			<Header>TXT_KEY_AA_FE_GENTLE_HEART_HEADER</Header>
+			<Achievopedia>TXT_KEY_AA_FE_GENTLE_HEART_TEXT</Achievopedia>
+			<IconAtlas>CIV_COLOR_ATLAS_YLISSE</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType>
+			<ModVersion>1</ModVersion>
+			<RequiredCivWin>CIVILIZATION_YLISSE</RequiredCivWin>
+		</Row>
+		<!--Validar Wins Any Victory-->
+		<!--Train a Shepherd-->
+		<Row>
+			<Type>AA_FE_SON_OF_SHEPHERD</Type>
+			<Header>TXT_KEY_AA_FE_SON_OF_SHEPHERD_HEADER</Header>
+			<Achievopedia>TXT_KEY_AA_FE_SON_OF_SHEPHERD_TEXT</Achievopedia>
+			<IconAtlas>FE_ACHIEVEMENT_AWAKENING_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType>
+			<ModVersion>1</ModVersion>
+		</Row>
+		<!--No Reaction, Was I Wrong Then?-->
+		<Row>
+			<Type>AA_FE_NO_REACTION</Type>
+			<Header>TXT_KEY_AA_FE_NO_REACTION_HEADER</Header>
+			<Achievopedia>TXT_KEY_AA_FE_NO_REACTION_TEXT</Achievopedia>
+			<IconAtlas>FE_ACHIEVEMENT_AWAKENING_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<ModType>MOD_FE_ADDITIONAL_ACHIEVEMENTS</ModType>
+			<ModVersion>1</ModVersion>
+			<RequiredCivLoss>CIVILIZATION_YLISSE</RequiredCivLoss>
+		</Row>
+	</AdditionalAchievements>
+	<Language_en_Us>
+		<!--Male Robin Wins-->
+		<Row Tag="TXT_KEY_AA_FE_HIGH_DELIVERER_HEADER">
+			<Text>High Deliverer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_FE_HIGH_DELIVERER_TEXT">
+			<Text>Win as Male Robin</Text>
+		</Row>
+		<!--Female Robin Wins-->
+		<Row Tag="TXT_KEY_AA_FE_HIGH_DELIVERER_F_HEADER">
+			<Text>Tactician Magician</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_FE_HIGH_DELIVERER_F_TEXT">
+			<Text>Win as Female Robin</Text>
+		</Row>
+		<!--Win as Chrom-->
+		<Row Tag="TXT_KEY_AA_FE_NEWLY_EXALTED_HEADER">
+			<Text>Newly Exalted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_FE_NEWLY_EXALTED_TEXT">
+			<Text>Win as Chrom</Text>
+		</Row>
+		<!--Train a Shepherd-->
+		<Row Tag="TXT_KEY_AA_FE_SON_OF_SHEPHERD_HEADER">
+			<Text>You Dare Mock the Son of a Shepherd?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_FE_SON_OF_SHEPHERD_TEXT">
+			<Text>Train a Shepherd</Text>
+		</Row>
+		<!--No Reaction-->
+		<Row Tag="TXT_KEY_AA_FE_NO_REACTION_HEADER">
+			<Text>No Reaction, Was I Wrong Then?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_FE_NO_REACTION_TEXT">
+			<Text>Lose a game as Emmeryn</Text>
+		</Row>
+	</Language_en_Us>
+</GameData>
