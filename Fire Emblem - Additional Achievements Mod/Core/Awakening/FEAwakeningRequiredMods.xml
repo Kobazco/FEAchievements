@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/21/2018 4:36:49 PM -->
+<GameData>
+	<!--Here is where we say which achievements require which secondary mods, usually the mods they are based on such as the Civ themselves and any they may interact with-->
+	<AdditionalAchievements_ModsRequired>
+		<!--Robin/Chrom Required Mods-->
+		<Row>
+			<AchievementType>AA_FE_HIGH_DELIVERER</AchievementType> <!--AchivementType is defined in FE(Game Series Here)Achievements.xml-->
+			<ModType>MOD_FE_ROBIN</ModType> <!--The ModType is defined first in FEIdentifier.xml-->
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_HIGH_DELIVERER_F</AchievementType>
+			<ModType>MOD_FE_ROBIN</ModType>
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_NEWLY_EXALTED</AchievementType>
+			<ModType>MOD_FE_ROBIN</ModType>
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_SON_OF_SHEPHERD</AchievementType>
+			<ModType>MOD_FE_ROBIN</ModType>
+		</Row>
+	</AdditionalAchievements_ModsRequired>
+</GameData>

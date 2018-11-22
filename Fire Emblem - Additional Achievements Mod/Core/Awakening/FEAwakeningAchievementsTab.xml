@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/21/2018 4:41:26 PM -->
+<GameData>
+	<!--Achievement Tabs appear on the side of the Achievements menu, which seperate Achievements by game series in this case-->
+	<Achievopedia_Tabs>
+		<Row>
+			<Type>TAB_FE_AWAKENING_ACHIEVEMENTS</Type><!--Definer for the Achievement Tab-->
+			<Header>TXT_KEY_TAB_FE_AWAKENING_ACHIEVEMENTS_HEADER</Header>
+			<Description>TXT_KEY_TAB_FE_AWAKENING_ACHIEVEMENTS_DESCRIPTION</Description>
+		</Row>
+	</Achievopedia_Tabs>
+	<AdditionalAchievements_Tabs>
+		<Row>
+			<AchievementType>AA_FE_HIGH_DELIVERER</AchievementType>
+			<TabType>TAB_FE_AWAKENING_ACHIEVEMENTS</TabType>
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_HIGH_DELIVERER_F</AchievementType>
+			<TabType>TAB_FE_AWAKENING_ACHIEVEMENTS</TabType>
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_NEWLY_EXALTED</AchievementType>
+			<TabType>TAB_FE_AWAKENING_ACHIEVEMENTS</TabType>
+		</Row>
+		<Row>
+			<AchievementType>AA_FE_SON_OF_SHEPHERD</AchievementType>
+			<TabType>TAB_FE_AWAKENING_ACHIEVEMENTS</TabType>
+		</Row>
+	</AdditionalAchievements_Tabs>
+	<Language_en_Us>
+		<Row Tag="TXT_KEY_TAB_FE_AWAKENING_ACHIEVEMENTS_HEADER">
+			<Text>Awakening</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAB_FE_AWAKENING_ACHIEVEMENTS_DESCRIPTION">
+			<Text>Achievements based around Civilizations from Fire Emblem Awakening</Text>
+		</Row>
+	</Language_en_Us>
+</GameData>
