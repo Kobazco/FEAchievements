@@ -3,6 +3,8 @@ These are basic instructions on how to contribute to the ongoing Fire Emblem Ach
 
 https://forums.civfanatics.com/threads/additional-achievements.624217/
 
+Achievement Ideas can be found in the Discord Channel's achievement-ideas chat room and on this google doc: https://docs.google.com/document/d/1_vMpmGaUnfpMFeWiFDMU6TQqywghDj7wsNnPxgpE5iQ/edit?usp=sharing
+
 ## Folder Structure
 
 In terms of the current folder structure, you can go ahead and ignore the folder called Fire Emblem - Additional Achievements mod. Inside there is everything I put at the base as well, so its a dupe. I'd much rather for organization sake that everyone modifies the files inside the root folders for organization purposes until I become more adept at using Github.
